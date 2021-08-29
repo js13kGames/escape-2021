@@ -165,3 +165,12 @@ export interface FogLayout {
     FogColor: WebGLUniformLocation;
     FogDistance: WebGLUniformLocation;
 }
+
+export interface PostprocessLayout {
+    // Uniforms
+    Sampler: WebGLUniformLocation;
+
+    // Attributes
+    VertexPosition: GLint;
+    VertexTexcoord: GLint;
+}
