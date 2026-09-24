@@ -1,4 +1,8 @@
 ---
+genres:
+  - platformer
+  - puzzle
+  - adventure
 directors_cut: https://piesku.com/escape/play
 # See github.com/js13kGames/hello-world for supported frontmatter
 ---
